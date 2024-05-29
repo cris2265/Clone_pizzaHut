@@ -1,0 +1,239 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    height: 7rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 15% 35% 35% 15%;
+    padding: 0rem 2rem 0rem 2rem;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+}
+.cuerpo {
+    width: 100%;
+    height: 50rem;
+    margin-top: 7rem;
+}
+.pizza_logo {
+    grid-column: 1/2;
+    height: 80%;
+    width: 90%;
+    object-fit: contain;
+}
+.icons {
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+}
+.icons img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+}
+.iniciar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iniciar span {
+    cursor: pointer;
+}
+.sesion {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    width: 15rem;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.sesion:hover {
+    box-shadow: 2px 2px 5px rgb(255, 215, 215), -2px -2px 5px rgb(203, 203, 255);
+    background-color: aliceblue;
+    transition: 0.6s;
+}
+.cuerpo {
+    width: 100%;
+    height: 47rem;
+    background-image: url(https://www.pizzahut.com.gt/static/media/images/banners/jpg/13_11433_MD_11-03-2024-16-01.jpg?2.0.11);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+} 
+.ele {
+    grid-column: 2/3;
+    display: flex;
+    padding: 3rem;
+    gap: 2rem;
+    align-items: end;
+    justify-content: center;
+}
+.puntitos {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: white;
+    border-radius: 40%;
+    cursor: pointer;
+}
+#grandecito {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+    border-radius: 40%;
+}
+#flechita_derecha {
+    color: #fff;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#flechita_izquierda {
+    color: #fff;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.secciones {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0rem 2rem 0rem 2rem;
+}
+.productos {
+    width: 20%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.productos img {
+    width: 15rem;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.nombre {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.productos:hover img{
+    box-shadow: 0px 0px 16px 6px #d20f2c;
+    transition: 0.8s;
+}
+.productos:hover p {
+    color: red;
+    transition: 0.8s;
+}
+.footer {
+    width: 100%;
+    height: 70rem;
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0rem;
+    gap: 2rem;
+}
+.secciones_footer_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    border-bottom: 1px solid rgb(49, 49, 49);
+    margin: auto
+}
+.secciones_footer_1 p {
+    color: rgb(204, 204, 204);
+    font-size: 1.8rem;
+    font-weight: 100;
+    font-family: initial;
+}
+.info {
+    display: flex;
+    gap: 20rem;
+}
+.acerca {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+.servi {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    gap: 1rem;
+    border-left: 1px solid rgb(49, 49, 49);
+}
+.politicas {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    border-left: 1px solid rgb(49, 49, 49);
+    gap: 1rem;
+}
+.info a {
+    text-decoration: none;
+    color: rgb(179, 229, 252);
+    font-family: initial;
+    font-weight: 100;
+    font-size: 2rem;
+}
+.secciones_footer_2 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: initial;
+}
+.gris {
+    color: #777;
+}
+.licencia {
+    color: rgb(204, 204, 204);
+}
+.secciones_footer_3 {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 75%;
+    background-color: #d20f2c;
+    justify-content: space-between;
+}
+.pago {
+    display: flex;
+    flex-direction: column;
+}
+.redes img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+}
+.tarjeta {
+    height: 4.8rem;
+    object-fit: contain;
+}
+.billete {
+    width: 10rem;
+    height: 4.8rem;
+    object-fit: contain;
+    background-color: #fff;
+}
